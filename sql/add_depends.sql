@@ -1,5 +1,3 @@
-﻿select * from plugin order by plugin_nm;
-select * from plugin_depends where plugin_id = 67731;
 
 commit;
 
@@ -13,6 +11,4 @@ where s.plugin_nm = 'Sweet Foods'
 delete from plugin_depends where plugin_id = (select plugin_id from plugin where plugin_nm = 'moretrees');
 
 delete from plugin_files where plugin_id = (select plugin_id from plugin where plugin_nm = 'moretrees');
-
- 71795 | Pizza     | mmod-pizza | https://github.com/vitaminx/pizza | https://forum.minetest.net/viewtopic.php?f=11&t=11625
 
