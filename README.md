@@ -20,7 +20,7 @@ Mybatis Migrations was used to manage the database creation scripts:  http://www
 **debmod Usage**
 
 The included bash scripts dobuild.sh and dobuildmeta.sh are required and need to be located in the folder specified in the -build argument when calling debmod. 
-
+```
 Usage of ./debmod:
   -build="/tmp/bbb": base folder to use for builds
   -buildmode="mods": Build mode can be mods, games, or meta
@@ -37,7 +37,7 @@ Usage of ./debmod:
   -pkg="mmod-zzz": desired package name
   -repo="/var/opt/mmrepo": Path to APT repository
   -source="/tmp/zzz": base folder containing source
-
+```
 If you pass *mmod-zzz* to the -pkg argument then debmod will package all mods defined in the database.  When packaging mods you need to specify *mods* for the -buildmode argument which is the default. 
 
 If you pass *mgame-zzz* to the -pkg argument then debmod will package all subgames defined in the database.  When packaging games you need to specify *games* for the -buildmode argument.
