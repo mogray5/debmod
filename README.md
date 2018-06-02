@@ -1,4 +1,7 @@
 # debmod
+
+Related Minetest forum thread:  https://forum.minetest.net/viewtopic.php?f=14&t=13051
+
 Tool to maintain an APT repository of Minetest mods and games
 
 This tool packages Minetest mods and games pulling from Git based repositories that are maintained by plugin authors.  
