@@ -20,7 +20,7 @@ Also requires:
 
 Bash / GNU Utils
 
-Mybatis Migrations are used to manage the database creation scripts:  http://www.mybatis.org/migrations
+Mybatis Migrations is used to manage the database creation scripts:  http://www.mybatis.org/migrations
 
 **debmod Usage**
 
@@ -49,4 +49,4 @@ If you pass *mgame-zzz* to the -pkg argument then debmod will package all subgam
 
 Scripts domod.sh and dogame.sh show examples of calling debmod.
 
-A collection of SQL scripts also are included that demonstrate how mods and added to the database.
+A collection of SQL scripts also are included that demonstrate how mods are added to the database.
