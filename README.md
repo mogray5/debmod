@@ -6,6 +6,8 @@ Tool to maintain an APT repository of Minetest mods and games
 
 This tool packages Minetest mods and games pulling from Git based repositories that are maintained by plugin authors.  
 
+Git repositories of upstream mod authors are scanned for changes and any changes detected will trigger a new package build. 
+
 Tested on: Debian Jessie 8.5
 
 **Requirements:**
