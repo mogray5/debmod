@@ -20,7 +20,7 @@ Also requires:
 
 Bash / GNU Utils
 
-Mybatis Migrations was used to manage the database creation scripts:  http://www.mybatis.org/migrations
+Mybatis Migrations are used to manage the database creation scripts:  http://www.mybatis.org/migrations
 
 **debmod Usage**
 
